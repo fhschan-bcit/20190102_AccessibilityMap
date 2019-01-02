@@ -1,5 +1,21 @@
 @media only screen and (max-width: 414px) {
-  body {
-    background-color: black;
+  .map {
+    width: 100%;
+    height: 100vh;
+    z-index: -50;
+    position: fixed;
+    background-color: blue;
+  }
+  .title {
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    position: fixed;
+    background-color: white;
+    opacity: 0.9;
+  }
+  .map img {
+    width: auto;
+    height: 100%;
   }
 }
