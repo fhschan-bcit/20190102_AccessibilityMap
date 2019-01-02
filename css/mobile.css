@@ -6,7 +6,7 @@
     position: fixed;
     background-color: blue;
   }
-  .title {
+  #title {
     width: 100%;
     height: 100vh;
     z-index: 0;
@@ -14,8 +14,29 @@
     background-color: white;
     opacity: 0.9;
   }
+  #title-content {
+    position: fixed;
+    z-index: 10;
+  }
   .map img {
     width: auto;
     height: 100%;
+  }
+  #logo {
+    margin: 30% 10% 30% 10%;
+    width: 80%;
+    height: auto;
+  }
+  #yourLocation {
+    width: 15px;
+    height: auto;
+  }
+  .btn-primary {
+    margin: 0 37%;
+  }
+  #input1 {
+  }
+  #input2 {
+    margin-bottom: 30% !important;
   }
 }
