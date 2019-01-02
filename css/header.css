@@ -1,0 +1,53 @@
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #0e0a3c;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: sans-serif;
+  }
+  
+  .header a:hover {
+    background-color: #f4c80d;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
