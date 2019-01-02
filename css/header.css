@@ -41,14 +41,11 @@
     float: right;
   }
 
-  .form-control{
-    margin: auto;
-
-  
-
+  .form1{
+    margin-bottom: 50px;
   }
 
-  
+
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
