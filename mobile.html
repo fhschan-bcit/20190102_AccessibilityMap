@@ -13,11 +13,26 @@
     <link rel="stylesheet" type="text/css" href="./css/mobile.css">
 </head>
 <body>
-    <div class="title">
-      
+    <div id="title-content">
+      <img id="logo" src="./img/accessBCIT.png" alt="logo">
+
+      <div id="input1" class="input-group mb-3 container-fluid">
+        <input type="text" class="form-control" placeholder="Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <span class="input-group-text yourLocation" id="basic-addon2">
+            <img id="yourLocation" src="./img/location.png" alt="marker">
+          </span>
+        </div>
+      </div>
+      <div id="input2" class="input-group mb-3 container-fluid">
+        <input type="text" class="form-control" placeholder="Target Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+      </div>
+      <button type="button" class="btn btn-primary" onclick="toMap()">Find</button>
     </div>
+    <div id="title"></div>
     <div class="map">
       <img src="./img/testmap.png" alt="map">
     </div>
+    <script src = "./js/mobile.js"></script>
 </body>
 </html>

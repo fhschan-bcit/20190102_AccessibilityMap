@@ -26,8 +26,8 @@
             <img src="./img/logo.png" width="50px" height="auto">
         </a>
         <div class="header-right">
-            <a href="#home">Home</a>
-            <a href="#map">Map</a>
+            <a href="./index.html">Home</a>
+            <a href="./html/map.html">Map</a>
         </div>
     </div>
 
@@ -37,20 +37,22 @@
         <div class="search">
 
             <div class="active-pink-3 active-pink-4 mb-4 input-group-append">
-                <input class="form-control" type="text" placeholder="Starting Location" aria-label="Search">
-                    <span class="input-group-text" id="basic-addon2">
-                        <img id="yourLocation" src="./img/location.png" alt="maker" onclick="">
-                    </span>
+                <input id="start" class="form-control" type="text" placeholder="Starting Location" aria-label="Search">
+                <span class="input-group-text" id="basic-addon2">
+                    <img id="yourLocation" src="./img/location.png" alt="maker" onclick="">
+                </span>
 
             </div>
 
             <div class="active-pink-3 active-pink-4 mb-4">
-                <input class="form-control" type="text" placeholder="Where to?" aria-label="Search">
+                <input id="end" class="form-control" type="text" placeholder="Where to?" aria-label="Search">
             </div>
-            <button class='btn btn-warning'>Search</button>
+            <button id="search-btn" class='btn btn-warning'>Search</button>
         </div>
 
     </div>
+
+    <script type="text/javascript" src="js/search_parse.js"></script>
 
 </body>
 
