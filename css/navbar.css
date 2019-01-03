@@ -41,10 +41,9 @@
     background-color: #111;
     color: white;
     padding: 10px 15px;
+    margin: 15px;
     border: none;
     position: relative;
-    left: 20px;
-    top: 10px;
   }
   
   .openbtn:hover {
