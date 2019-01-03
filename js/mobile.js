@@ -42,13 +42,14 @@ $("#yourLocation").click(function() {
 });
 
 function directionText() {
-      let directions = document.getElementById('directions')
-      directions.innerHTML = "<br>Cross White Avenue.<br><br>\
-                              Turn right and walk for<br> 500 meters.<br><br>\
-                              Turn left and walk for<br> 250 meters using the ramp. <br><br>\
-                              Go through SE12 and take<br> a right.<br><br>\
-                              Take the ramp to reach<br> 2nd floor.<br><br>\
-                              Your destination is <br>on the right.\
-                              "
+  let directions = document.getElementById("directions");
+  directions.innerHTML =
+      "<br>&nbsp;&nbsp;Cross White Avenue.<br><br>\
+                          &nbsp;&nbsp;Turn right and walk for<br> &nbsp;&nbsp;500 meters.<br><br>\
+                          &nbsp;&nbsp;Turn left and walk for<br>&nbsp;&nbsp; 250 meters using the ramp. <br><br>\
+                          &nbsp;&nbsp;Go through SE12 and take<br>&nbsp;&nbsp; a right.<br><br>\
+                          &nbsp;&nbsp;Take the ramp to reach<br>&nbsp;&nbsp; 2nd floor.<br><br>\
+                          &nbsp;&nbsp;Your destination is <br>&nbsp;&nbsp;on the right.\
+                          ";
   }
   directionText();
