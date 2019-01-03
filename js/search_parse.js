@@ -24,8 +24,8 @@ function search_read(){
 
 function getCurrentLocation(){
     console.log("Hello");
-    document.getElementById("start").placeholder = "bus";
-    document.getElementById("start").value = "bus";
+    document.getElementById("start").placeholder = "bus stop";
+    document.getElementById("start").value = "bus stop";
 
 }
     

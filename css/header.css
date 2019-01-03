@@ -7,6 +7,12 @@ body{
     background-size: 100% 137%;
 }
 
+.bcitacces-logo {
+  width: auto;
+  height: 46px;
+  margin-left: 6px;
+}
+
 .logo {
   width: 50px;
   height: auto;
