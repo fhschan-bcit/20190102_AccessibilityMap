@@ -2,12 +2,21 @@
 
 
 function search_read(){
-    let start_loc = document.getElementById('start');
-    let end_loc = document.getElementById('end');
+    let start_loc = document.getElementById('start').value.trim();
+    let end_loc = document.getElementById('end').value.trim();
 
-    if (start_loc.value == 'bus' && end_loc.value == 'library'){
-        window.location = "./html/map.html?test";
+    start_loc = start_loc.toLowerCase();
+    end_loc = end_loc.toLowerCase();
+
+
+    if (start_loc == 'bus stop' && end_loc == 'library'){
+        window.location = "./html/map.html?bus_library";
     }
+
+    else if (start_loc == 'se02' && end_loc =='tim hortons'){
+        window.location = "./html/map.html?se02_timmies";
+    }
+
     else{
         window.location = "./html/map.html";
     }

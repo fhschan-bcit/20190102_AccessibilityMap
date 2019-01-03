@@ -1,18 +1,22 @@
-function toMap() {
+function toMap(mapType) {
   document.getElementById("title").style.display = "none";
   document.getElementById("title-content").style.display = "none";
   document.getElementById("back").style.display = "inline-block";
+  console.log(mapType);
+
+  let map = document.getElementById("currMap");
+  map.src = "./img/"+mapType;
+  // map.style.overflowX = "scroll";
 }
 
 function parseInputs() {
   let location = document.getElementById("locationInput");
   let target = document.getElementById("targetInput");
 
-  console.log(location.value);
-  console.log(target.value);
-
-  if (location.value == 'bus' && target.value == 'library'){
-    toMap();
+  if (location.value == 'Bus Stop' && target.value == 'Library'){
+    toMap("wheelchair_library.png");
+  } else if (location.value == 'SE02' && target.value == 'Tim Hortons') {
+    toMap("wheelchair_tim_hortons.png");
   } else {
     window.location = "mobile.html";
   }
@@ -23,5 +27,5 @@ function toHome() {
 }
 
 $("#yourLocation").click(function() {
-  document.getElementById("locationInput").value = "bus";
+  document.getElementById("locationInput").value = "Bus Stop";
 });
