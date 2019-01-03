@@ -4,6 +4,7 @@
     height: 100vh;
     z-index: -50;
     position: fixed;
+    text-align: center;
   }
   #title {
     width: 100%;
@@ -20,6 +21,7 @@
   .map img {
     width: auto;
     height: 100%;
+    margin-left: -400px;
   }
   #logo {
     margin: 30% 10% 30% 10%;
