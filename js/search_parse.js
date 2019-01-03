@@ -9,7 +9,7 @@ function search_read(){
     end_loc = end_loc.toLowerCase();
 
 
-    if (start_loc == 'bus' && end_loc == 'library'){
+    if (start_loc == 'bus stop' && end_loc == 'library'){
         window.location = "./html/map.html?bus_library";
     }
 

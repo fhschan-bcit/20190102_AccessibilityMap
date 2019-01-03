@@ -17,21 +17,21 @@ function imgReplace() {
 function directionText() {
     if (searchTerm == 'bus_library') {
         let directions = document.getElementById('directions')
-        directions.innerHTML = "Cross White Avenue.<br><br>\
-                                Turn right and walk for 500 meters<br><br>\
-                                Turn left and walk for 250 meters using the ramp. <br><br>\
-                                Go through SE12 and take a right<br><br>\
-                                Take the ramp to reach 2nd floor.<br><br>\
-                                Your destination is on the right\
+        directions.innerHTML = "<br>Cross White Avenue.<br><br>\
+                                Turn right and walk for<br> 500 meters.<br><br>\
+                                Turn left and walk for<br> 250 meters using the ramp. <br><br>\
+                                Go through SE12 and take<br> a right.<br><br>\
+                                Take the ramp to reach<br> 2nd floor.<br><br>\
+                                Your destination is <br>on the right.\
                                 "
     }
 
     else if (searchTerm == "se02_timmies"){
         let directions = document.getElementById('directions')
-        directions.innerHTML = "Proceed to South exit of SE02.<br><br>\
-                                Turn left and walk for 15 meters<br><br>\
-                                Turn right and walk for 250 meters using the ramp. <br><br>\
-                                Your destination is on the right\
+        directions.innerHTML = "<br>Proceed to South exit<br> of SE02.<br><br>\
+                                Turn left and walk for<br> 15 meters.<br><br>\
+                                Turn right and walk for<br> 250 meters using the ramp. <br><br>\
+                                Your destination is on<br> the right.\
                                 "
     }
 }
