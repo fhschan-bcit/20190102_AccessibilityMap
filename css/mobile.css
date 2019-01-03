@@ -20,8 +20,10 @@
   }
   .map img {
     width: auto;
-    height: 100%;
-    margin-left: -400px;
+    height: 100vh;
+  }
+  .map div {
+    overflow-x: scroll;
   }
   #logo {
     margin: 30% 10% 30% 10%;
@@ -41,5 +43,8 @@
   }
   #yourLocation:hover {
     cursor: pointer;
+  }
+  .pullup {
+    position: fixed;
   }
 }

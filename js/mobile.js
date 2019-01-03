@@ -6,7 +6,7 @@ function toMap(mapType) {
 
   let map = document.getElementById("currMap");
   map.src = "./img/"+mapType;
-  map.style.overflow = "auto";
+  // map.style.overflowX = "scroll";
 }
 
 function parseInputs() {
@@ -15,7 +15,7 @@ function parseInputs() {
 
   if (location.value == 'Bus Stop' && target.value == 'Library'){
     toMap("wheelchair_library.png");
-  } else if (location.value == 'SE06' && target.value == 'Tim Hortons') {
+  } else if (location.value == 'SE02' && target.value == 'Tim Hortons') {
     toMap("wheelchair_tim_hortons.png");
   } else {
     window.location = "mobile.html";
