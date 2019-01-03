@@ -40,6 +40,14 @@
   color: white;
   display: block;
   transition: 0.3s;
+  text-align: justify;
+}
+
+#sidebar-border{
+  border: 1px solid white;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 1em;
 }
 
 .sidenav a:hover {
