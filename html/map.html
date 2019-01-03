@@ -13,9 +13,18 @@
     <!-- Your custom styles (optional) -->
     <link href="../css/style.css" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="../css/access-map.css">
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
 </head>
 <body>
-<div class="header container-fluid">
+
+<div id="mySidebar" class="sidebar">
+    <p>Turn&nbsp;left,&nbsp;200m</p>
+    <p>Direction 2</p>
+</div>
+    
+<div class="header container-fluid" id="main">
+   
+    <button class="openbtn btn-primary" onclick="toggleNav()">☰</button>
     <a href="#default" class="logo">
         <img src="../img/logo.png" width="50px" height="auto">
     </a>
@@ -25,11 +34,14 @@
     </div>
 </div>
 
-<div class = container>
+<div class="container-fluid" id='main'>
     <img class="access-map" id='access-map' src="../img/map_1.jpg">
 </div>
 
+
 <script type="text/javascript" src="../js/access_map.js"></script>
+<script>
+</script>
 
 </body>
 </html>
