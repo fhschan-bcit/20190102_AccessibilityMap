@@ -47,5 +47,6 @@ function toggleNav(){
         document.getElementById("main").style.marginLeft = "0";
     }
 }
+
 imgReplace();
 directionText();
