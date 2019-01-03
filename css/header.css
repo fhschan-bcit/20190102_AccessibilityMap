@@ -14,10 +14,6 @@
   height: auto;
 }
 
-body{
-  background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fwww.bcitsa.ca%2Fwp-content%2Fuploads%2F2017%2F09%2Femployment-opportunities.jpg);
-}
-
 #box{
   margin: auto;
   margin-top: 7%;
@@ -75,7 +71,6 @@ body{
     vertical-align: 15em;
   }
 
-<<<<<<< HEAD
   #box button{
   margin-top: 7%;
   }
@@ -91,11 +86,6 @@ body{
 }
 
 
-=======
-  .form1{
-    margin-bottom: 50px;
-  }
->>>>>>> 466d1dfecf9d5c3c2271e14dc1c824c78a02b6aa
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
@@ -114,7 +104,10 @@ body{
     color: #f4c80d;
     font-size: 250%;
     font-weight: bold;
-    margin-bottom: 2%;
+  }
+  .Location img{
+    width: 300px;
+    height: auto;
   }
   #yourLocation{
   width: 15px;
