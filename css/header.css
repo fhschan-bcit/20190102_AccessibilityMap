@@ -4,7 +4,7 @@
 }
 
 body{
-    background-size: 125% 125%;
+    background-size: auto 130%;
 }
 
 .logo {
@@ -22,7 +22,7 @@ body{
   padding: 5px;
   border-radius: 8px;
   padding: 15px;
-  height: 425px;
+  height: 390px;
   width: 45%;
   background-color: rgba(243, 243, 243, 0.8);
 }
@@ -80,8 +80,9 @@ body{
     padding: 70px 0;
 }
 
-.search-button{
+#search-button{
     color: f4c80d;
+    margin-bottom: 10em;
 }
 
 
@@ -105,6 +106,7 @@ body{
     font-weight: bold;
   }
   .Location img{
+    margin-top: 0.25em;
     width: 300px;
     height: auto;
   }
