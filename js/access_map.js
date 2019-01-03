@@ -4,20 +4,35 @@ let searchIndex = myUrl.indexOf(delimiter) + 1;
 let searchTerm = myUrl.substring(searchIndex);
 
 function imgReplace() {
-    if (searchTerm == 'test') {
+    if (searchTerm == 'bus_library') {
         let myMap = document.getElementById('access-map');
         myMap.src = "../img/wheelchair_library.png";
+    }
+    else if (searchTerm == "se02_timmies"){
+        let myMap = document.getElementById('access-map');
+        myMap.src = "../img/wheelchair_tim_hortons.png";
     }
 }
 
 function directionText() {
-    if (searchTerm == 'test') {
-        let directions = document.createElement('ul');
-        let step_1 = document.createElement('li');
-        let text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        step_1.createTextNode(text);
-        directions.appendChild(step_1);
-        document.body.append(directions);
+    if (searchTerm == 'bus_library') {
+        let directions = document.getElementById('directions')
+        directions.innerHTML = "Cross White Avenue.<br><br>\
+                                Turn right and walk for 500 meters<br><br>\
+                                Turn left and walk for 250 meters using the ramp. <br><br>\
+                                Go through SE12 and take a right<br><br>\
+                                Take the ramp to reach 2nd floor.<br><br>\
+                                Your destination is on the right\
+                                "
+    }
+
+    else if (searchTerm == "se02_timmies"){
+        let directions = document.getElementById('directions')
+        directions.innerHTML = "Proceed to South exit of SE02.<br><br>\
+                                Turn left and walk for 15 meters<br><br>\
+                                Turn right and walk for 250 meters using the ramp. <br><br>\
+                                Your destination is on the right\
+                                "
     }
 }
 
