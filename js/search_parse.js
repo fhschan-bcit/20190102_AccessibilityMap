@@ -16,6 +16,8 @@ function search_read(){
 function getCurrentLocation(){
     console.log("Hello");
     document.getElementById("start").placeholder = "bus";
+    document.getElementById("start").value = "bus";
+
 }
     
 let search_btn = document.getElementById('search-btn');
