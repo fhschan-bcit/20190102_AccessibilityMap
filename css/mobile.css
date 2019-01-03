@@ -4,7 +4,6 @@
     height: 100vh;
     z-index: -50;
     position: fixed;
-    background-color: blue;
   }
   #title {
     width: 100%;
@@ -12,7 +11,7 @@
     z-index: 0;
     position: fixed;
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.8;
   }
   #title-content {
     position: fixed;
@@ -30,13 +29,15 @@
   #yourLocation {
     width: 15px;
     height: auto;
+}
+  .btn-primary {margin: 0 37%;}
+  #input2 {margin-bottom: 30% !important;}
+  #back {
+    display: none;
+    float: left;
+    position: fixed;
   }
-  .btn-primary {
-    margin: 0 37%;
-  }
-  #input1 {
-  }
-  #input2 {
-    margin-bottom: 30% !important;
+  #yourLocation:hover {
+    cursor: pointer;
   }
 }
