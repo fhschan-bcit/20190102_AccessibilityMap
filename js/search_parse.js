@@ -12,6 +12,13 @@ function search_read(){
         window.location = "./html/map.html";
     }
 }
+
+function getCurrentLocation(){
+    console.log("Hello");
+    document.getElementById("start").placeholder = "bus";
+    document.getElementById("start").value = "bus";
+
+}
     
 let search_btn = document.getElementById('search-btn');
 search_btn.onclick = search_read;

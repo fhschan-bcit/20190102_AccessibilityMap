@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,32 +19,43 @@
     <link rel="stylesheet" type="text/css" href="./css/general.css">
 
 </head>
-<body>
-<div class="header container-fluid">
-    <a href="#default" class="logo">
-        <img src="./img/logo.png" width="50px" height="auto">
-    </a>
-    <div class="header-right">
-        <a href="./index.html">Home</a>
-        <a href="./html/map.html">Map</a>
-    </div>
-</div>
 
-<div id = "box">
-
-    <div class = "Location"> Where to? </div>
-    <div class = "search">
-        <div class="active-pink-3 active-pink-4 mb-4">
-            <input id='start' class="form-control" type="text" placeholder="Your Location" aria-label="Search">
+<body background="img/home_screen_img.jpeg">
+    <div class="header container-fluid">
+        <a href="#default" class="logo">
+            <img src="./img/logo.png" width="50px" height="auto">
+        </a>
+        <div class="header-right">
+            <a href="./index.html">Home</a>
+            <a href="./html/map.html">Map</a>
         </div>
-        <div class="active-pink-3 active-pink-4 mb-4">
-            <input id='end' class="form-control" type="text" placeholder="Where to?" aria-label="Search">
-        </div>
-        <button class ='btn btn-warning' id="search-btn">Search</button>
     </div>
-</div>
 
-<script type="text/javascript" src="js/search_parse.js"></script>
+    <div id="box">
+
+        <div class="Location">
+            <img src="./img/accessBCIT.png">    
+        </div>
+        <div class="search">
+
+            <div class="active-pink-3 active-pink-4 mb-4 input-group-append">
+                <input id="start" class="form-control" type="text" placeholder="Starting Location" aria-label="Search">
+                <span class="input-group-text" id="basic-addon2">
+                    <img id="yourLocation" src="./img/location.png" alt="maker" onclick="getCurrentLocation()">
+                </span>
+
+            </div>
+
+            <div class="active-pink-3 active-pink-4 mb-4">
+                <input id="end" class="form-control" type="text" placeholder="Where to?" aria-label="Search">
+            </div>
+            <button id="search-btn" class='btn btn-primary'>Search</button>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/search_parse.js"></script>
 
 </body>
+
 </html>
