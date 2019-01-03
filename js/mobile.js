@@ -2,6 +2,7 @@ function toMap(mapType) {
   document.getElementById("title").style.display = "none";
   document.getElementById("title-content").style.display = "none";
   document.getElementById("back").style.display = "inline-block";
+  document.getElementById("main").style.display = "inline-block";
   console.log(mapType);
 
   let map = document.getElementById("currMap");

@@ -41,6 +41,9 @@
 }
 
 #main {
+  position: fixed;
+  float: right;
+  display: none;
   transition: margin-left .5s;
   padding: 16px;
 }
